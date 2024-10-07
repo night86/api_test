@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Helpers\\": "helpers/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "ext-pdo": "*"
+    }
+}
